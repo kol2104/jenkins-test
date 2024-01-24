@@ -13,3 +13,6 @@ spring:
         mode:
           flush: true
     show-sql: true
+
+hibernate:
+  dialect: org.hibernate.dialect.PostgreSQLDialect
