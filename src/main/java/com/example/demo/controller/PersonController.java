@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController("/person")
+@RestController
+@RequestMapping("/person")
 public class PersonController {
 
     private final PersonService personService;
