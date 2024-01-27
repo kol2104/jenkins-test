@@ -14,5 +14,5 @@ spring:
           flush: true
         dialect: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
-    liquibase:
-      change-log: db/changelog/changelog.xml
+  liquibase:
+    change-log: db/changelog/changelog.xml
